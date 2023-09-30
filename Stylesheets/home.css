@@ -1,0 +1,70 @@
+.HomeTitle {
+    position: absolute;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    height: 43px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    top: 58px;
+    z-index: 2;
+}
+
+.HomeTitleImage {
+    top: 58px;
+    position: absolute;
+    width: 52%;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.HomeLeftImage {
+    position: absolute;
+    width: 212px;
+    object-fit: cover;
+    left: 70px;
+    top: 88px;
+}
+
+.HomeRightImage {
+    position: absolute;
+    width: 242px;
+    object-fit: cover;
+    right: 70px;
+    top: 88px;
+}
+
+.HomeDescription1 {
+    top: 388px;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    font-size: 26px;
+}
+
+.WeDoList {
+    position: absolute;
+    top: 420px;
+    width: 200px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    text-align: center;
+    font-size: 18px;
+}
+
+.ContactUs {
+    position: absolute;
+    top: 728px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    font-size: 24px;
+}
+
+.EmailHyperlink {
+    position: absolute;
+    top: 758px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    font-size: 24px;
+}

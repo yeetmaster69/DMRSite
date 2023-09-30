@@ -1,0 +1,159 @@
+.ProjectsContainerDiv {
+    max-width: 100%;
+    height: 3800px;
+    position: absolute;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.ProjectsTitle {
+    position: absolute;
+    top: 80px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    font-size: 36px;
+    z-index: 2;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.CurrentProjects {
+    top: 90px;
+    position: relative;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    horiz-align: center;
+    vertical-align: center;
+    text-align: center;
+    float: left;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+
+.cpim {
+    position: relative;
+    width: 380px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 80px;
+    vertical-align: center;
+    horiz-align: center;
+}
+
+.cpim1 {
+    position: relative;
+    display: flex;
+    width: 380px;
+    height: 400px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: transparent;
+    vertical-align: center;
+    horiz-align: center;
+    background-position: center;
+}
+
+.cpim2 {
+    position: relative;
+    display: flex;
+    width: 380px;
+    height: 420px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 80px;
+    margin-bottom: 140px;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: transparent;
+    vertical-align: center;
+    horiz-align: center;
+    background-position: center;
+}
+
+p {
+    height: fit-content;
+    vertical-align: center;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Arial;
+    font-size: 28px;
+    margin-top: 6px;
+}
+
+b {
+    font-size: 32px;
+    font-family: Arial;
+    color: black;
+    position: absolute;
+    top: 100%;
+    width: 380px;
+    height: fit-content;
+    margin-top: 12px;
+    font-weight: 200;
+}
+
+.b2 {
+    font-size: 32px;
+    font-family: Arial;
+    color: black;
+    position: absolute;
+    top: 100%;
+    width: 500px;
+    height: fit-content;
+    margin-left: -60px;
+    margin-top: 12px;
+    font-weight: 200;
+}
+
+.cpim1:hover {
+    color: rgba(255,255,255,.92);
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.6);
+    cursor: default;
+}
+
+.PastProjectsTitle {
+    position: relative;
+    display: inline-block;
+    left: 50%;
+    transform: translate(-50%, 0);
+    font-size: 36px;
+    z-index: 2;
+    width: 400px;
+    text-align: center;
+    top: 230px;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.PastProjects {
+    top: 170px;
+    position: relative;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    horiz-align: center;
+    vertical-align: center;
+    text-align: center;
+    float: left;
+    left: 50%;
+    transform: translate(-50%,0);
+    overflow-y: hidden;
+}
+
+.ppim {
+    position: relative;
+    width: 400px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 80px;
+    vertical-align: center;
+    horiz-align: center;
+    background-color: red;
+}

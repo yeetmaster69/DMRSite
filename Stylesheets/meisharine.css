@@ -1,0 +1,319 @@
+#me_header {
+    font-family: 'Arial', serif;
+    text-align: center;
+    color: 404040;
+    font-size: 72px;
+}
+#me_navbar {
+    font-family: 'Arial', sans-serif;
+    text-align: left;
+    display: block;
+	float: center;
+#	height: 64px;
+	width: 100%;
+	position: fixed;
+	z-index: 10;
+	top: 0;
+	left: 0;
+#	right: 0;
+	background-color: f1f3f4;
+	overflow: hidden;
+#	padding-top: 20px;
+	padding-left: 1%;
+}
+#me_currentpagelink {
+	background-color: C0C0C0;
+}
+#me_body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    display: block;
+	height: 100%;
+	width: 100%;
+#	position: fixed;
+#	z-index: 10;
+#	top: 0px;
+	left: 0;
+#	right: 0;
+#	background-color: e1e3e4;
+#	overflow: hidden;
+	padding-top: 4px;
+#	padding-left: 5px;
+}
+#me_header_image {
+    text-align: center;
+    display: block;
+	height: 300px;
+	width: 100%;
+#	position: fixed;
+#	z-index: 10;
+#	top: 64px;
+#	left: 0;
+#	right: 0;
+#	background-color: e1e3e4;
+#	overflow: hidden;
+#	padding-top: 64px;
+#	padding-left: 5px;
+}
+
+#me_copyright {
+    text-align: center;
+}
+
+#me_subheader {
+    font-family: 'Arial', serif;
+	padding: 5% 5% 5% 5%;
+    text-align: center;
+    color: 404040;
+    font-size: 36px;
+}
+
+#me_code_section {
+    display: block;
+#    float: left;
+#	position: relative;
+#    width: 70%;
+#	left: 160px;
+}
+.me_invisible_variable {
+    visibility: hidden;
+}
+button {
+#    font-family: 'Helvetica', sans-serif;
+    display: block;
+    float: left;
+#	position: relative;
+#    text-align: center;
+}
+h3 {
+    font-family: 'Arial', serif;
+    font-size: 50px;
+#    line-height: 10px;
+	color: 80868b;
+}
+p, ul {
+    font-family: 'Helvetica', sans-serif;
+    padding: 0% 5% 0% 5%;
+	color: 40464b;
+	#font-weight: bold;
+}
+
+.mecurrentpagelink {
+    font-family: 'Arial', sans-serif;
+	float: left;
+    text-align: center;
+    display: block;
+	width: auto;
+	padding: 20px 20px 20px 20px;
+	text-decoration: none;
+}
+.mecurrentpagelink:link {
+	color: 404040;
+#	background-color: C0C0C0;
+	background-color: transparent; 
+}
+.mecurrentpagelink:visited {
+	color: 404040;
+#	background-color: C0C0C0;
+	background-color: transparent; 
+}
+.mecurrentpagelink:hover {
+	color: red;
+	background-color: A0A0A0;
+}
+
+.mecurrentpagelink:active {
+	color: red;
+	background-color: 808080;
+}
+.mepagelink {
+	background-color: 404040;
+    font-family: 'Arial', sans-serif;
+	float: left;
+    text-align: center;
+    display: block;
+	width: auto;
+	padding: 20px 20px 20px 20px;
+	text-decoration: none;
+}
+.mepagelink:link {
+	color: 404040;
+	background-color: transparent; 
+
+}
+.mepagelink:visited {
+	color: 404040;
+	background-color: transparent; 
+}
+.mepagelink:hover {
+	color: red;
+	background-color: A0A0A0;
+}
+
+.mepagelink:active {
+	color: red;
+	background-color: 808080;
+}
+.mepublicationlink {
+	background-color: 404040;
+    font-family: 'Arial', sans-serif;
+#	float: left;
+    text-align: center;
+    display: block;
+	width: auto;
+	padding: 40px 0px 5px 0px;
+	text-decoration: none;
+}
+.mepublicationlink:link {
+	color: 404040;
+	background-color: transparent; 
+
+}
+.mepublicationlink:visited {
+	color: 404040;
+	background-color: transparent; 
+}
+.mepublicationlink:hover {
+	color: red;
+	background-color: E0E0E0;
+}
+
+.mepublicationlink:active {
+	color: red;
+	background-color: 808080;
+}
+.mesectionlink {
+	color: 3030f0;
+}
+.memodheader {
+    font-family: 'Arial', serif;
+    text-align: center;
+    color: 404040;
+    font-size: 36px;
+}
+.memodsubheader {
+    font-family: 'Arial', serif;
+    text-align: center;
+    color: 404040;
+    font-size: 18px;
+}
+.memoddescription {
+    font-family: 'Arial', serif;
+	padding: 0% 16% 0% 16%;
+    text-align: left;
+    color: 404040;
+    font-size: 24px;
+}
+.mewritingarea {
+    font-family: 'Arial', serif;
+#    text-align: center;
+#	padding: 5% 5% 5% 5%;
+    color: 404040;
+    font-size: 36px;
+}
+.meback {
+	width: 84%;
+    font-family: 'Arial', serif;
+    padding: 0% 0% 0% 16%;
+#	position: relative;
+    display: block;
+    float: left;
+#    text-align: center;
+	color: 404040;
+}
+.medualblock {
+	height: 480px;
+	width: 84%;
+#    font-family: 'Helvetica', sans-serif;
+    padding: 0% 0% 0% 16%;
+#	position: relative;
+    display: block;
+    float: center;
+#    text-align: center;
+	color: 40464b;
+#	left: 160px;
+}
+.medualblockleft {
+ #   font-family: 'Helvetica', sans-serif;
+	width: 50%;
+#    padding: 0% 0% 0% 5%;
+#	position: relative;
+#    display: block;
+    float: left;
+#    text-align: center;
+	color: 40464b;
+#	left: 160px;
+}
+.medualblockright {
+#    font-family: 'Helvetica', sans-serif;
+	width: 44%;
+#    padding: 0% 0% 0% 1%;
+#    display: block;
+#	position: relative;
+    float: left;
+    text-align: left;
+}
+.mecolumnblock {
+#	height: 576px;
+	width: 100%;
+#    font-family: 'Helvetica', sans-serif;
+#    padding: 0% 0% 0% 16%;
+#	position: relative;
+    display: block;
+    float: center;
+#    text-align: center;
+	color: 40464b;
+#	left: 160px;
+}
+.mecolumnhalf {
+#    font-family: 'Helvetica', sans-serif;
+	width: 48%;
+    padding: 0% 1% 0% 1%;
+    display: block;
+#	position: relative;
+    float: left;
+#    text-align: left;
+}
+.mepublicationcolumnhalf {
+#    font-family: 'Helvetica', sans-serif;
+	height: 95%;
+	width: 40%;
+    padding: 0% 5% 5% 5%;
+    display: block;
+#	position: relative;
+    float: left;
+#    text-align: left;
+}
+
+.meinoutarea {
+#	height: 300px;
+	width: 84%;
+#    font-family: 'Helvetica', sans-serif;
+    padding: 0% 0% 0% 16%;
+#	position: relative;
+    display: block;
+    float: left;
+#    text-align: center;
+	color: 40464b;
+#	left: 160px;
+}
+.meinputarea {
+    font-family: 'Helvetica', sans-serif;
+	width: 50%;
+#    padding: 0% 0% 0% 5%;
+#	position: relative;
+#    display: block;
+    float: left;
+#    text-align: center;
+	color: 40464b;
+#	left: 160px;
+}
+.meoutputarea {
+#    font-family: 'Helvetica', sans-serif;
+	width: 44%;
+    padding: 0% 0% 0% 1%;
+#    display: block;
+#	position: relative;
+    float: right;
+    text-align: left;
+}

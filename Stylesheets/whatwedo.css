@@ -1,0 +1,82 @@
+.ProjectsContainerDiv {
+    background-color: green;
+    width: 100%;
+    height: 1000px;
+}
+
+.ProjectsTitle {
+    position: absolute;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    height: 43px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    top: 58px;
+    z-index: 2;
+    background-color: blue;
+    font-family: Arial;
+}
+
+.CompetenciesTitle {
+        position: absolute;
+        top: 80px;
+        left: 50%;
+        transform: translate(-50%, 0);
+        font-size: 32px;
+        z-index: 2;
+        font-weight: bold;
+    font-family: Arial;
+
+}
+
+.CompetenciesList {
+    position: absolute;
+    top: 140px;
+    left: 50%;
+    transform: translate(-50%,0);
+    font-size: 26px;
+    width: 980px;
+    padding-left: 5%;
+    font-family: Arial;
+    line-height: 2.1;
+}
+
+
+.ContactUs {
+    position: absolute;
+    top: 728px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    font-size: 24px;
+    font-family: Arial;
+}
+
+.EmailHyperlink {
+    position: absolute;
+    top: 758px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    font-size: 24px;
+}
+
+.ISOStandards {
+    font-family: Arial;
+    font-size: 18px;
+    position: relative;
+    display: inline-block;
+    top: 570px;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+.WorkAvailable {
+    font-family: Arial;
+    font-size: 22px;
+    position: absolute;
+    display: inline-block;
+    top: 628px;
+    left: 50%;
+    transform: translate(-50%,0);
+    text-decoration: underline;
+}

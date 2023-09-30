@@ -1,0 +1,141 @@
+.AboutUsTitle {
+    font-size: 42px;
+    left: 50%;
+    transform: translate(-50%,0);
+    top: 72px;
+    position: absolute;
+    font-family: Arial;
+}
+
+.SEDiv {
+    width: 50%;
+    height: 80%;
+    position: absolute;
+    display: flex;
+    top: 140px;
+}
+
+.BossManSEImg {
+    position: absolute;
+    width: 22vw;
+    height: 22vw;
+    left: 50%;
+    transform: translate(-50%,0);
+    object-fit: cover;
+}
+
+.SETitle {
+    top: 22vw;
+    margin-top: 14px;
+    float: left;
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    height: 32px;
+    font-weight: bold;
+    font-size: 26px;
+    font-family: Arial;
+    text-align: center;
+}
+
+.SEDescription {
+    float: left;
+    top: calc(22vw + 58px);
+    position: relative;
+    display: inline-block;
+    width: 30vw;
+    height: 200px;
+    font-size: 18px;
+    text-align: center;
+    font-family: Arial;
+    text-align: center;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.MaxDiv {
+    width: 50%;
+    height: 80%;
+    position: absolute;
+    display: flex;
+    top: 140px;
+    right: 0px;
+}
+
+.MaxImg {
+    position: absolute;
+    width: 22vw;
+    height: 22vw;
+    right: 50%;
+    transform: translate(50%,0);
+    object-fit: cover;
+}
+
+.MaxTitle {
+    top: 22vw;
+    margin-top: 14px;
+    float: right;
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    height: 32px;
+    font-weight: bold;
+    font-size: 26px;
+    font-family: Arial;
+    text-align: center;
+}
+
+.MaxDescription {
+    float: left;
+    top: calc(22vw + 58px);
+    position: relative;
+    display: inline-block;
+    width: 30vw;
+    height: 200px;
+    font-size: 18px;
+    text-align: center;
+    font-family: Arial;
+    text-align: center;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.MattImg {
+    width: 350px;
+    height: 350px;
+    top: 780px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    position: absolute;
+    object-fit: cover;
+}
+
+.MattTitle {
+    float: right;
+    top: 1148px;
+    position: absolute;
+    display: inline-block;
+    left: 50%;
+    transform: translate(-114px,0);
+    width: 400px;
+    height: 48px;
+    font-weight: bold;
+    font-size: 26px;
+    font-family: Arial;
+}
+
+.MattDescription {
+    top: 1200px;
+    position: absolute;
+    display: inline-block;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: fit-content;
+    line-height: 1;
+    height: 200px;
+    font-size: 18px;
+    text-align: center;
+    font-family: Arial;
+}
